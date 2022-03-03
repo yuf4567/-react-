@@ -5,9 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
+  // React.createElement('h1',{className:'title'},'h1标题'),
+  // <div>我是div</div>,
   document.getElementById('root')
 );
 
