@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+// import About from './components/About'
+// import Center from './components/Center';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-    <App />,
-  // React.createElement('h1',{className:'title'},'h1标题'),
-  // <div>我是div</div>,
-  document.getElementById('root')
-);
+    <App/>,
+    document.getElementById('root')
+  );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

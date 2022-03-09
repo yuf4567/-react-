@@ -1,40 +1,18 @@
-// import logo from './logo.svg';
 import './App.css';
-import About from './About'
+import './css/index.css'
+// import './css/iconfont.css'
+// import './css/index.less'
+import Header from './components/Header'
+import Content from './components/Content'
+import Footer from './components/Footer'
 
-
-let name='yuf1234'
-
-let day=['q','w','e','d','g']
 
 function App() {
   return (
     <div className="App">
-      
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        <About/>
-        <h1>{name}'s first react app</h1>
-        <p> {3>2?'y':'n'} </p>
-        <p>
-          {
-            day.map( (x,i)=>{
-              return <li key={i}>{x}+' '</li>
-            })
-          }
-        </p>
-      </header>
+     <Header/>
+     <Content/>
+     <Footer/>
     </div>
   );
 }

@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* .header .banner {
+  font-size: 13px;
+  position: relative;
+  padding-left: 24px;
+  height: 60px;
+}
+* .header .banner .leftbar {
+  position: absolute;
+}
+* .header .banner .leftbar #more {
+  display: inline-block;
+}
+* .header .banner .leftbar #more a {
+  padding-bottom: 10px;
+}
+* .header .banner .leftbar #more .moreitemwarp {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  width: 240px;
+  height: 310;
+  left: 210px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px #eedddd;
+  text-align: center;
+}
+* .header .banner .leftbar #more .moreitemwarp .moreicon a {
+  display: inline-block;
+  text-align: center;
+  width: 76px;
+  height: 60px;
+  margin: 0;
+  padding: 16px 0 0 0;
+}
+* .header .banner .leftbar #more .moreitemwarp .moreicon a img {
+  width: 44px;
+  height: 44px;
+}
+* .header .banner .leftbar #more .moreitemwarp .moreicon a p {
+  font-size: 13px;
+}
+* .header .banner .leftbar #more .moreitemwarp #morelink {
+  color: #9195A3;
+  display: inline-block;
+  padding-left: 30px;
+}
+* .header .banner .leftbar #more .moreitemwarp #morelink:hover {
+  color: #7e99f8;
+}
+* .header .banner .leftbar #more:hover .moreitemwarp {
+  display: block;
+}
+* .header .banner .userbar{
+  position: relative;
+  right: 0;
+}
+* .header .banner .userbar {
+  position: absolute;
+  right: 0;
+}
+* .header .banner .userbar li {
+  position: relative;
+  list-style: none;
+  float: left;
+}
+* .header .banner .userbar li:first-child {
+  padding-bottom: 10px;
+}
+* .header .banner .userbar li:first-child:hover ul {
+  display: block;
+}
+* .header .banner .userbar li ul {
+  position: absolute;
+  display: none;
+  padding: 5px 0 5px 0;
+  top: 45px;
+  left: -25px;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px #eedddd;
+  background-color: #ffffff;
+}
+* .header .banner .userbar li ul li {
+  padding: 0 0 0 9px;
+}
+* .header .banner .userbar li ul li:first-child {
+  padding-bottom: 0px;
+}
+* .header .banner .userbar li ul li a {
+  margin: 5px 0;
+  padding: 0 5px;
+}
+* .header .banner .userbar #login {
+  position: relative;
+  color: white;
+  margin-top: 15px;
+  padding: 2px 10px 2px 10px;
+  background-color: #4E71F2;
+  border: 1px solid #4E71F2;
+  border-radius: 20px;
+}
+* .header .banner a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin-right: 31px;
+  margin-top: 19px;
+  position: relative;
+}
+* .header .banner a:hover {
+  color: #7e99f8;
+}
+* .content {
+  position: relative;
+  text-align: center;
+}
+* .content .baidulogo img {
+  width: 270px;
+  height: 129px;
+}
+* .content .search {
+  display: inline-block;
+  position: relative;
+}
+* .content .search .searchbar {
+  position: relative;
+  left: -50px;
+}
+* .content .search .searchbar #inputbar {
+  padding: 0 55px 0 20px;
+  width: 536px;
+  height: 38px;
+  border: 2px solid #cccccc;
+  float: left;
+  box-sizing: border-box;
+  border-radius: 10px 0 0 10px;
+}
+* .content .search .searchbar #inputbar:hover {
+  border: 2px solid #a7aab5;
+}
+* .content .search .searchbar #inputbar:focus {
+  outline: none;
+  border: 2px solid #4E71F2;
+}
+* .content .search .searchbar #searchbtn {
+  position: absolute;
+  display: inline-block;
+  background-color: #4E71F2;
+  color: white;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  left: -2px;
+  height: 38px;
+  width: 108px;
+}
+* .content .search .searchbar #searchbtn:hover {
+  background-color: #4662d9;
+}
+* .content .search .searchbar #photosearch {
+  position: absolute;
+  display: inline-block;
+  left: -45px;
+  width: 38px;
+  height: 38px;
+  background-color: transparent;
+  background-image: url(../assets/imgs/searchbar.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: 3px -65px;
+}
+* .content .search .searchbar #photosearch:hover {
+  background-position: 3px -99px;
+}
+* .content .hotnewstitle {
+  position: absolute;
+  padding-top: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 654px;
+  font-size: 14px;
+}
+* .content .hotnewstitle .newswarpheader {
+  position: relative;
+  display: inline-block;
+  width: 654px;
+}
+* .content .hotnewstitle .newswarpheader p {
+  display: inline-block;
+}
+* .content .hotnewstitle .newswarpheader .left {
+  float: left;
+  padding-left: 10px;
+}
+* .content .hotnewstitle .newswarpheader .right {
+  float: right;
+  padding-right: 60px;
+}
+* .content .hotnewstitle .newswarpheader .left:hover {
+  color: blue;
+  cursor: pointer;
+}
+* .content .hotnewstitle .newswarpheader .right:hover {
+  font-size: 14px;
+  color: #626675;
+  cursor: pointer;
+}
+* .content .hotnewstitle .newswarp {
+  column-count: 2;
+}
+* .content .hotnewstitle .newswarp a {
+  float: left;
+  padding: 10px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+* .content .hotnewstitle .newswarp a li {
+  list-style: none;
+  color: black;
+}
+* .content .hotnewstitle .newswarp a li p {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+}
+* .content .hotnewstitle .newswarp a li p:first-child {
+  padding-right: 8px;
+  color: #e91212;
+}
+* .content .hotnewstitle .newswarp a li .seccol {
+  color: #a7aab5;
+}
+* .content .hotnewstitle .newswarp a li span {
+  display: inline-block;
+  color: white;
+  border-radius: 4px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+}
+* .content .hotnewstitle .newswarp a li:hover p:nth-child(2) {
+  color: blue;
+  text-decoration: underline;
+}
+* .content .hotnewstitle .newswarp a:first-child span {
+  background-color: orange;
+  color: white;
+}
+* .content .hotnewstitle .newswarp a:nth-child(2) span {
+  background-color: red;
+}
+* .footer {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+* .footer span {
+  text-decoration: none;
+  color: #BBBBBB;
+  font-size: 12px;
+  margin: 0 10px;
+}
+* .footer span a {
+  text-decoration: none;
+  color: #BBBBBB;
+  font-size: 12px;
+}
+* .footer span a:hover {
+  color: black;
+}
